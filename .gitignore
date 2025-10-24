@@ -19,3 +19,6 @@ src/mobile-app/.git/
 src/mobile-app/coverage/
 src/mobile-app/.nyc_output/
 src/mobile-app/*.tsbuildinfo
+ 
+# Rust build artifacts
+target/
