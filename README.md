@@ -421,15 +421,10 @@ See [API_DOCS.md](./API_DOCS.md) for detailed endpoint documentation (coming soo
 
 This is currently a development project. For contribution guidelines, please contact the project maintainers.
 
-## 📄 License
-
-[Add your license here]
-
 ## 📞 Support
 
 For issues, questions, or feature requests, please contact:
-- Email: [your-email]
-- GitHub Issues: [repository-url]
+- Email: roadsolsafe@gmail.com
 
 ## 🙏 Acknowledgments
 
