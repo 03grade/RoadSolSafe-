@@ -1,0 +1,30 @@
+[package]
+name = "driver_trip_reward"
+version = "0.1.0"
+description = ""
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "driver_trip_reward"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+custom-heap = []
+custom-panic = []
+anchor-debug = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+
+[dependencies]
+anchor-lang = "0.32.1"
+anchor-spl = { version = "0.32.1", features = ["token_2022"] }
+bumpalo = "=3.14.0"
+
+
+[dev-dependencies]
+solana-sdk = "=2.3.1"
+solana-program-test = "=2.3.3"

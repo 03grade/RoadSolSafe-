@@ -1,0 +1,21 @@
+// Enhanced .gitignore
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+.env.local
+.env.*.local
+coverage/
+.nyc_output/
+*.tsbuildinfo
+build/
+*.ipa
+*.apk
+*.dSYM.zip
+src/mobile-app/node_modules/
+src/mobile-app/.expo/
+src/mobile-app/.git/
+src/mobile-app/coverage/
+src/mobile-app/.nyc_output/
+src/mobile-app/*.tsbuildinfo
